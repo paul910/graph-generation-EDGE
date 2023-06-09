@@ -31,7 +31,7 @@ def add_exp_args(parser):
     parser.add_argument('--eval_every', type=int, default=1)
     parser.add_argument('--check_every', type=int, default=None)
     parser.add_argument('--log_tb', type=eval, default=True)
-    parser.add_argument('--log_wandb', type=eval, default=True)
+    parser.add_argument('--log_wandb', type=eval, default=False)
     parser.add_argument('--log_home', type=str, default='./wandb')
 
 
